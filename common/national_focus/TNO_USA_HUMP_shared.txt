@@ -1,0 +1,2871 @@
+# Group #1 - Opening	
+	shared_focus = {
+		id = USA_hump_68_the_humphrey_presidency
+		icon = GFX_USA_Humphrey_Presidency
+		cost = 2
+		available = {
+		}
+			cancel_if_invalid = yes
+			continue_if_invalid = no
+			available_if_capitulated = no
+		completion_reward = {
+			
+		}
+		x = 10
+		y = 0
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_army_for_labor
+		icon = GFX_USA_Army_For_Labor
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_humphrey_presidency
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_the_humphrey_presidency
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_the_unions
+		icon = GFX_USA_Unions
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_army_for_labor
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_army_for_labor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_the_movments
+		icon = GFX_USA_Movements
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_unions
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_the_unions
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_the_party
+		icon = GFX_USA_Party
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_army_for_labor
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_army_for_labor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_the_doubters
+		icon = GFX_USA_Doubters
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_party
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_the_party
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_opening_arguments
+		icon = GFX_USA_Humphrey_Speech
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_the_movments }
+		prerequisite = { focus = USA_hump_68_the_doubters }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_the_movments
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_our_mandate
+		icon = GFX_USA_Affirming_NPP_Mandate
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_opening_arguments
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_within_our_ranks
+			focus = USA_hump_68_across_the_aisle
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 1
+		relative_position_id = USA_hump_68_opening_arguments
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_left_flank
+		icon = GFX_USA_NPP_Left
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_our_mandate
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_our_mandate
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_across_the_aisle
+		icon = GFX_USA_Across_Aile
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_opening_arguments
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_within_our_ranks
+			focus = USA_hump_68_our_mandate
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_opening_arguments
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_treaty_of_fifth_avenue
+		icon = GFX_USA_Treaty_5th_Avenue
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_across_the_aisle
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_across_the_aisle
+	}
+
+	shared_focus = {
+		id = USA_hump_68_within_our_ranks
+		icon = GFX_USA_Within_Our_Ranks
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_opening_arguments
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_across_the_aisle
+			focus = USA_hump_68_our_mandate
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_opening_arguments
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_defining_national_progress
+		icon = GFX_USA_National_Progress
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_within_our_ranks
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_within_our_ranks
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_enter_the_happy_warrior
+		icon = GFX_USA_Happy_Warrior
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_left_flank
+			focus = USA_hump_68_treaty_of_fifth_avenue
+			focus = USA_hump_68_defining_national_progress
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_treaty_of_fifth_avenue
+	}
+	
+# Group #2 - NLRA
+
+	shared_focus = {
+		id = USA_hump_68_planning_our_first_battle
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_enter_the_happy_warrior
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_enter_the_happy_warrior
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_use_the_chamber
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_planning_our_first_battle
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 1
+		relative_position_id = USA_hump_68_planning_our_first_battle
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_protections_for_organizing
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_use_the_chamber
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_use_the_chamber
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_political_and_secondary_strikes
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_protections_for_organizing
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_protections_for_organizing
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_profit_sharing_and_ownership_disputes
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_political_and_secondary_strikes
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_political_and_secondary_strikes
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_what_is_a_bargaining_unit
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_use_the_chamber
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_use_the_chamber
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_making_exclusions
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_what_is_a_bargaining_unit
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_what_is_a_bargaining_unit
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_state_labor_law_restrictions
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_making_exclusions
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_making_exclusions
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_national_labor_relations_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_state_labor_law_restrictions }
+		prerequisite = { focus = USA_hump_68_profit_sharing_and_ownership_disputes }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_profit_sharing_and_ownership_disputes
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_use_the_office
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_planning_our_first_battle
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_planning_our_first_battle
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_assignments_and_committees
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_use_the_office
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_use_the_office
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_old_left
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_assignments_and_committees
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_assignments_and_committees
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_new_left
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_assignments_and_committees
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_assignments_and_committees
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_cleaning_labors_skeleltons
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_new_left }
+		prerequisite = { focus = USA_hump_68_old_left }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_old_left
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_a_public_appeal
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_cleaning_labors_skeleltons
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_cleaning_labors_skeleltons
+	}
+
+	shared_focus = {
+		id = USA_hump_68_the_union_goes_rolling_on
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_national_labor_relations_act }
+		prerequisite = { focus = USA_hump_68_a_public_appeal }
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_national_labor_relations_act
+	}
+
+# Group #3 - Conservation
+
+	shared_focus = {
+		id = USA_hump_68_legacy_of_muir
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_the_union_goes_rolling_on 
+		}
+		completion_reward = {
+			
+		}
+		x = -15
+		y = 1
+		relative_position_id = USA_hump_68_the_union_goes_rolling_on
+	}
+
+	shared_focus = {
+		id = USA_hump_68_great_national_heritage
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_legacy_of_muir
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 2
+		relative_position_id = USA_hump_68_legacy_of_muir
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_establish_the_ccc
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_great_national_heritage
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_great_national_heritage
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_paths_across_america
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_establish_the_ccc
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_establish_the_ccc
+	}
+
+	shared_focus = {
+		id = USA_hump_68_concrete_jungles
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_paths_across_america
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_paths_across_america
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_earth_day_every_day
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_legacy_of_muir
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_legacy_of_muir
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_clean_water_and_new_pipes
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_earth_day_every_day
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_earth_day_every_day
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_never_another_dust_bowl
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_clean_water_and_new_pipes
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_clean_water_and_new_pipes
+	}
+
+	shared_focus = {
+		id = USA_hump_68_cost_of_oil
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_never_another_dust_bowl
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_never_another_dust_bowl
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_found_the_epa
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_cost_of_oil
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_cost_of_oil
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_our_great_natural_heritage
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_concrete_jungles }
+		prerequisite = { focus = USA_hump_68_found_the_epa }
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_concrete_jungles
+	}
+
+# Group #4 - Infrastructure
+
+	shared_focus = {
+		id = USA_hump_68_connecting_the_country
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_the_union_goes_rolling_on 
+		}
+		completion_reward = {
+			
+		}
+		x = -6
+		y = 1
+		relative_position_id = USA_hump_68_the_union_goes_rolling_on
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_national_utilities
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_connecting_the_country 
+		}
+		completion_reward = {
+			
+		}
+		x = -4
+		y = 1
+		relative_position_id = USA_hump_68_connecting_the_country
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_rural_electrification
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_national_utilities
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_national_utilities
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_rotting_and_flooding
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_rural_electrification
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_rural_electrification
+	}
+
+	shared_focus = {
+		id = USA_hump_68_battling_bell
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_rotting_and_flooding
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_rotting_and_flooding
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_let_there_be_light
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_battling_bell
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_battling_bell
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_rail_and_road
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_connecting_the_country 
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_connecting_the_country
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_highways_or_interstates
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_rail_and_road
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_rail_and_road
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_farm_to_market
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_highways_or_interstates
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_highways_or_interstates
+	}
+
+	shared_focus = {
+		id = USA_hump_68_consolidate_the_railways
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_rail_and_road
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_rail_and_road
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_modernizing_the_fleet
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_consolidate_the_railways
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_consolidate_the_railways
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_free_parking_or_mass_transit
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_farm_to_market }
+		prerequisite = { focus = USA_hump_68_modernizing_the_fleet }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_farm_to_market
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_passing_the_nirra
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_free_parking_or_mass_transit
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_free_parking_or_mass_transit
+	}
+
+	shared_focus = {
+		id = USA_hump_68_talking_atom
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_connecting_the_country 
+		}
+		completion_reward = {
+			
+		}
+		x = 4
+		y = 1
+		relative_position_id = USA_hump_68_connecting_the_country
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_how_big
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_talking_atom
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_talking_atom
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_waste_disposal
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_how_big
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_how_big
+	}
+
+	shared_focus = {
+		id = USA_hump_68_environmental_concern
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_waste_disposal
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_waste_disposal
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_getting_it_through_senate
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_environmental_concern
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_environmental_concern
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_a_country_connected
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_let_there_be_light }
+		prerequisite = { focus = USA_hump_68_passing_the_nirra }
+		prerequisite = { focus = USA_hump_68_getting_it_through_senate }
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_passing_the_nirra
+	}
+
+# Group #5 - Civil Rights and Welfare
+
+	shared_focus = {
+		id = USA_hump_68_bright_sunshine_of_human_rights
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_the_union_goes_rolling_on 
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 3
+		relative_position_id = USA_hump_68_the_union_goes_rolling_on
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_federal_election_board
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_bright_sunshine_of_human_rights
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_bright_sunshine_of_human_rights
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_redlines_of_the_banks
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_federal_election_board
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_federal_election_board
+	}
+
+	shared_focus = {
+		id = USA_hump_68_conditons_of_prisons
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_redlines_of_the_banks
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_redlines_of_the_banks
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_passing_a_civil_rights_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_conditons_of_prisons
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_conditons_of_prisons
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_sick_old_and_poor
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_the_union_goes_rolling_on 
+		}
+		completion_reward = {
+			
+		}
+		x = 5
+		y = 1
+		relative_position_id = USA_hump_68_the_union_goes_rolling_on
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_paying_for_it_all
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_sick_old_and_poor 
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_sick_old_and_poor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_a_right_long_overdue
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_sick_old_and_poor
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 2
+		relative_position_id = USA_hump_68_sick_old_and_poor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_introduce_medical_benefits
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_a_right_long_overdue
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_a_right_long_overdue
+	}
+
+	shared_focus = {
+		id = USA_hump_68_passing_social_security
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_introduce_medical_benefits
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_introduce_medical_benefits
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_founding_job_corp
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_sick_old_and_poor
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_sick_old_and_poor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_federal_or_state_administration
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_founding_job_corp
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_founding_job_corp
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_job_corp_for_prisons
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_federal_or_state_administration
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_federal_or_state_administration
+	}
+
+	shared_focus = {
+		id = USA_hump_68_onto_the_floor
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_job_corp_for_prisons
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_job_corp_for_prisons
+	}
+
+# Group #6 - Education
+
+	shared_focus = {
+		id = USA_hump_68_back_to_school
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_passing_social_security }
+		prerequisite = { focus = USA_hump_68_onto_the_floor }
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 3
+		relative_position_id = USA_hump_68_onto_the_floor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_teachers_parents_reformers
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_back_to_school
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 1
+		relative_position_id = USA_hump_68_back_to_school
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_those_with_little
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_teachers_parents_reformers
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_teachers_parents_reformers
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_special_programs
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_those_with_little
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_those_with_little
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_after_school
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_special_programs
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_special_programs
+	}
+
+	shared_focus = {
+		id = USA_hump_68_into_life
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_special_programs
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_special_programs
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_adding_it_all_up
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_after_school }
+		prerequisite = { focus = USA_hump_68_into_life }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_after_school
+	}
+
+	shared_focus = {
+		id = USA_hump_68_primary_secondary_education_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_adding_it_all_up
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_adding_it_all_up
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_back_to_lsu
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_back_to_school
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 3
+		relative_position_id = USA_hump_68_back_to_school
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_not_just_universities
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_back_to_lsu
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_back_to_lsu
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_resarch_for_the_future
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_not_just_universities
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_not_just_universities
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_higher_educcation_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_resarch_for_the_future
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_resarch_for_the_future
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_long_death_of_ignorance
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_primary_secondary_education_act }
+		prerequisite = { focus = USA_hump_68_higher_educcation_act }
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_primary_secondary_education_act
+	}
+
+# Group #7 - Foreign Policy
+
+	shared_focus = {
+		id = USA_hump_68_shake_hands_around_the_world
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_the_union_goes_rolling_on 
+		}
+		completion_reward = {
+			
+		}
+		x = 15
+		y = 8
+		relative_position_id = USA_hump_68_the_union_goes_rolling_on
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_good_neighbor
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_shake_hands_around_the_world
+		}
+		completion_reward = {
+			
+		}
+		x = -5
+		y = 3
+		relative_position_id = USA_hump_68_shake_hands_around_the_world
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_correcting_our_mistakes
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_good_neighbor
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_good_neighbor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_curbing_the_cia
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_correcting_our_mistakes
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_correcting_our_mistakes
+	}
+
+	shared_focus = {
+		id = USA_hump_68_redefine_their_role
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_curbing_the_cia
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_curbing_the_cia
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_good_fight
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_shake_hands_around_the_world
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_shake_hands_around_the_world
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_open_hand
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_good_fight
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 1
+		relative_position_id = USA_hump_68_good_fight
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_shall_carry_bread
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_open_hand
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_shall_carry_roses
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_open_hand
+	}
+
+	shared_focus = {
+		id = USA_hump_68_shall_carry_roses
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_open_hand
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_shall_carry_bread
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_open_hand
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_strong_arm
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_good_fight
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 1
+		relative_position_id = USA_hump_68_good_fight
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_shall_defend_democracy
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_strong_arm
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_shall_defend_america
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_strong_arm
+	}
+
+	shared_focus = {
+		id = USA_hump_68_shall_defend_america
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_strong_arm
+		}
+		mutually_exclusive = {
+			focus = USA_hump_68_shall_defend_democracy
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_strong_arm
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_making_america_whole
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_shall_carry_bread
+			focus = USA_hump_68_shall_carry_roses
+		}
+		prerequisite = {
+			focus = USA_hump_68_shall_defend_democracy
+			focus = USA_hump_68_shall_defend_america
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_shall_carry_roses
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_fair_trade_and_free_labor
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_shake_hands_around_the_world
+		}
+		completion_reward = {
+			
+		}
+		x = 5
+		y = 1
+		relative_position_id = USA_hump_68_shake_hands_around_the_world
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_lobbyist_scream
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_fair_trade_and_free_labor
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_fair_trade_and_free_labor
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_international_labor_standards_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_lobbyist_scream
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_lobbyist_scream
+	}
+
+	shared_focus = {
+		id = USA_hump_68_no_longer_gilded_age
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_international_labor_standards_act
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_international_labor_standards_act
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_land_reform_in_the_free_nations
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_no_longer_gilded_age
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_no_longer_gilded_age
+	}
+
+	shared_focus = {
+		id = USA_hump_68_past_the_senate_onto_the_world
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_land_reform_in_the_free_nations
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_land_reform_in_the_free_nations
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_friend_of_the_weak_enemy_of_tyrants
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_redefine_their_role }
+		prerequisite = { focus = USA_hump_68_making_america_whole }
+		prerequisite = { focus = USA_hump_68_past_the_senate_onto_the_world }
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 3
+		relative_position_id = USA_hump_68_making_america_whole
+	}
+
+# Group #8 - Public Ownership
+
+	shared_focus = {
+		id = USA_hump_68_the_american_commonwealth
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_our_great_natural_heritage }
+		prerequisite = { focus = USA_hump_68_a_country_connected }
+		prerequisite = { focus = USA_hump_68_passing_a_civil_rights_act }
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_a_country_connected
+	}
+
+	shared_focus = {
+		id = USA_hump_68_failures_of_49
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_american_commonwealth
+		}
+		completion_reward = {
+			
+		}
+		x = -4
+		y = 1
+		relative_position_id = USA_hump_68_the_american_commonwealth
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_rewrite_the_subsides
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_failures_of_49
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 1
+		relative_position_id = USA_hump_68_failures_of_49
+	}
+
+	shared_focus = {
+		id = USA_hump_68_what_is_a_slum
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_failures_of_49
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_failures_of_49
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_greenbelts_or_strong_towns
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_rewrite_the_subsides }
+		prerequisite = { focus = USA_hump_68_what_is_a_slum }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_rewrite_the_subsides
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_upfront_and_background
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_greenbelts_or_strong_towns
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_greenbelts_or_strong_towns
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_managing_managment
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_upfront_and_background
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_upfront_and_background
+	}
+
+	shared_focus = {
+		id = USA_hump_68_national_housing_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_managing_managment
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_managing_managment
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_bank_of_bismarck
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_american_commonwealth
+		}
+		completion_reward = {
+			
+		}
+		x = -1
+		y = 2
+		relative_position_id = USA_hump_68_the_american_commonwealth
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_support_municipal_banking
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_bank_of_bismarck
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_bank_of_bismarck
+	}
+
+	shared_focus = {
+		id = USA_hump_68_land_trusts_for_towns
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_support_municipal_banking
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_support_municipal_banking
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_farmer_labor_ideal
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_land_trusts_for_towns
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_land_trusts_for_towns
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_down_to_the_wire
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_farmer_labor_ideal
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_farmer_labor_ideal
+	}
+	
+	
+	
+	shared_focus = {
+		id = USA_hump_68_american_arts_and_culture
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_american_commonwealth
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_the_american_commonwealth
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_songs_of_america
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_american_arts_and_culture
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_american_arts_and_culture
+	}
+
+	shared_focus = {
+		id = USA_hump_68_theater_and_film
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_songs_of_america
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_songs_of_america
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_words_and_recordings
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_theater_and_film
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_theater_and_film
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_images_of_our_home
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_words_and_recordings
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_words_and_recordings
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_funding_and_passage
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_images_of_our_home
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_images_of_our_home
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_newspapers_radio_television
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_the_american_commonwealth
+		}
+		completion_reward = {
+			
+		}
+		x = 3
+		y = 2
+		relative_position_id = USA_hump_68_the_american_commonwealth
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_equal_opportunity
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_newspapers_radio_television
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_newspapers_radio_television
+	}
+
+	shared_focus = {
+		id = USA_hump_68_public_radio
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_equal_opportunity
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_equal_opportunity
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_protect_local_newspapers
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { 
+			focus = USA_hump_68_public_radio
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_public_radio
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_media_act
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_protect_local_newspapers
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_protect_local_newspapers
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_equal_liberties
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_national_housing_act }
+		prerequisite = { focus = USA_hump_68_down_to_the_wire }
+		prerequisite = { focus = USA_hump_68_funding_and_passage }
+		prerequisite = { focus = USA_hump_68_media_act }
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 1
+		relative_position_id = USA_hump_68_down_to_the_wire
+	}
+
+
+# Group #9 - Capstone
+
+	shared_focus = {
+		id = USA_battles_fought
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = { focus = USA_hump_68_equal_liberties }
+		prerequisite = { focus = USA_hump_68_long_death_of_ignorance }
+		prerequisite = { focus = USA_hump_68_friend_of_the_weak_enemy_of_tyrants }
+		completion_reward = {
+			
+		}
+		x = 6
+		y = 1
+		relative_position_id = USA_hump_68_equal_liberties
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_happy_warrior_fights
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_battles_fought
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_battles_fought
+	}
+	
+	shared_focus = {
+		id = USA_hump_68_a_new_american_dream
+		icon =
+		cost = 2
+		available = {
+			
+		}
+		cancel = {
+			
+		}
+		prerequisite = {
+			focus = USA_hump_68_happy_warrior_fights
+		}
+		completion_reward = {
+			
+		}
+		x = 0
+		y = 1
+		relative_position_id = USA_hump_68_happy_warrior_fights
+	}

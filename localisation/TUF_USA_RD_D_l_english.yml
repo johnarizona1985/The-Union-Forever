@@ -1,0 +1,21 @@
+﻿l_english:
+
+#TUF bennett events
+
+UFB.2.t:0 "Appointment of J. William Fulbright"
+UFB.2.desc:0 "I hope no funnt shit happens.\n\n"
+UFB.2.a:0 "I guess we'll just have to see."
+
+UFB.3.t:0 "Appointment of Robert McNamara"
+UFB.3.desc:0 "You get an IMF LOAN, you get an IMF LOAN, EVERYDOY GET AN IMF LOAN!!!\n\n"
+UFB.3.a:0 "Though the giant falls, not all the minions do."
+
+UFB.4.t:0 "Appointment of Clark Clifford"
+UFB.4.desc:0 "This guys is smart bro.\n\n"
+UFB.4.a:0 "Liberalism get a seat on the consul"
+
+USA_WFB_J_William_Fulbright_pol:0 "J. William Fulbright"
+USA_WFB_J_William_Fulbright_pol_desc:0 "------------\n§Lracism §!"
+
+USA_WFB_Robert_McNamara_eco:0 "Robert McNamara"
+USA_WFB_Robert_McNamara_eco_desc:0 "------------\n§LI think burgers go well with fries.§!"

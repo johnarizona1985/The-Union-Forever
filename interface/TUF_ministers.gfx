@@ -1,0 +1,14 @@
+spriteTypes = {
+
+	
+	spriteType = { #Auto-Generated
+		name = "GFX_idea_USA_WFB_Robert_McNamara_eco"
+		texturefile = "gfx/interface/ideas/USA/ministers/USA_Minister_Robert_McNamara.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_USA_WFB_J_William_Fulbright_pol"
+		texturefile = "gfx/interface/ideas/USA/ministers/USA_Minister_J_William_Fulbright.dds"
+	}
+	
+}

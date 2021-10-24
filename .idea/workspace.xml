@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3d2dd7c-e9b8-45fe-94af-7a40bb00bc79" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/union_forever/common/country_leader/00_minister_descriptions.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/common/ideas/TNO_ministers.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/common/national_focus/TNO_USA.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/common/national_focus/TNO_USA_HUMP_shared.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/descriptor.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/events/TNO_America.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/event_pictures/GFX_USA_Humphrey_Wins.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/event_pictures/report_event_USA_Humphrey.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Across_Aile.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Affirming_NPP_Mandate.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Doubters.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Happy_Warrior.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Humphrey_Presidency.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Humphrey_Speech.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Movements.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_NPP_Left.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_National_Progress.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Party.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Treaty_5th_Avenue.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Unions.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_Within_Our_Ranks.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/USA_laborarmystuff.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/goals/shine_overlay.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/ideas/USA/ministers/USA_Minister_Henry_Jackson.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/ideas/USA/ministers/USA_Minister_Rexford_Tugwell.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/ideas/USA/ministers/USA_Minister_Sid_McMath.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/interface/ideas/USA/ministers/USA_Minister_Victor_Reuther.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/gfx/leaders/USA/Portrait_Hubert_Humphrey_Happy.dds" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/TNO_ministers.gfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/eventpictures.gfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/eventwindow.gfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/eventwindow.gui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/goals2.gfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/interface/goals2_shine.gfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/union_forever/localisation/hump_l_english.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1zwiK1izyxaMYK65lpwmVkqzk9S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3d2dd7c-e9b8-45fe-94af-7a40bb00bc79" name="Default Changelist" comment="" />
+      <created>1635065486741</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635065486741</updated>
+      <workItem from="1635065492858" duration="1262000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

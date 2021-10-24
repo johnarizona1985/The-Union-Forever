@@ -1,0 +1,56 @@
+﻿add_namespace = UFB
+add_namespace = UFB.flavor
+add_namespace = GLD
+add_namespace = GLD.union
+add_namespace = GLD.Speer
+add_namespace = GLD.flavor
+add_namespace = BOB ###MCNAMARA GANG - TEX TEX TEX
+add_namespace = UFB.Chains
+
+#BENNETT TIME YEAH
+
+country_event = { #Appointment of Fulbright
+	id = UFB.2
+ 	title = UFB.2.t
+ 	desc = UFB.2.desc
+	picture = GFX_USA_Fulbright
+	immediate = {log = "[GetDateText]: [Root.GetName]: event UFB.2"}
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+ 	option = { #epic
+ 		name = UFB.2.a
+ 		add_ideas = USA_WFB_J_William_Fulbright_pol
+ 	}
+}
+
+country_event = { #Appointment of Robert McNamara
+	id = UFB.3
+ 	title = UFB.3.t
+ 	desc = UFB.3.desc
+	picture = GFX_report_event_USA_bennett_mcnamara
+	immediate = {log = "[GetDateText]: [Root.GetName]: event UFB.3"}
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+ 	option = { #epic
+ 		name = UFB.3.a
+ 		add_ideas = USA_WFB_Robert_McNamara_eco
+ 	}
+}
+
+country_event = { #Appointment of Clark Clifford
+	id = UFB.4
+ 	title = UFB.4.t
+ 	desc = UFB.4.desc
+	picture = GFX_USA_Clark_Clifford
+	immediate = {log = "[GetDateText]: [Root.GetName]: event UFB.4"}
+
+	is_triggered_only = yes
+ 	fire_only_once = yes
+ 	option = { #epic
+ 		name = UFB.4.a
+ 		add_ideas = USA_Clark_Clifford_mil
+ 	}
+}
+

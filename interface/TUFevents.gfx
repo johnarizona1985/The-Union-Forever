@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	#### TUF EVENTS ####
+
+	
+	spriteType = {
+		name = "GFX_USA_Fulbright"
+		texturefile = "gfx/event_pictures/report_event_USA_Fulbright.png"
+	}
+	spriteType = {
+		name = "GFX_USA_Clark_Clifford"
+		texturefile = "gfx/event_pictures/report_event_USA_Clark_Clifford.png"
+	}
+	
+}
