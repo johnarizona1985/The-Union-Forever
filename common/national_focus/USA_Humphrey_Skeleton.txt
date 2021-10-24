@@ -1,0 +1,491 @@
+focus_tree = {
+	id = USA_Humphrey_skeleton.1
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+				if = {
+					has_country_flag = USA_Humphrey_elected
+				}
+
+				tag = USA
+			}
+			}
+		}
+	default = no
+
+
+
+	focus = {
+		id = USA_The_Humphrey_Presidency
+		icon = GFX_Focus_Education_Books
+		x = 7
+		y = 0
+	}
+	focus = {
+		id = USA_Our_Army_For_Labor
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Humphrey_Presidency 
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_The_Humphrey_Presidency }
+	}
+	focus = {
+		id = USA_The_Unions
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Our_Army_For_Labor 
+		y = 1
+		x = -1
+		prerequisite = { focus = USA_Our_Army_For_Labor	}
+
+	}
+	focus = {
+		id = USA_The_Party
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Our_Army_For_Labor 
+		y = 1
+		x = 1
+		prerequisite = { focus = USA_Our_Army_For_Labor	}
+	}
+	focus = {
+		id = USA_The_Movements
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Unions
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_The_Unions	}
+	}	
+	focus = {
+		id = USA_The_Doubters
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Party
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_The_Party	}
+	}
+	focus = {
+		id = USA_Opening_Arguments
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Movements
+		y = 1
+		x = 1
+		prerequisite = { focus = USA_The_Movements
+						 focus = USA_The_Doubters
+	}
+	}
+	focus = {
+		id = USA_Across_The_Aisle
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Opening_Arguments
+		y = 1
+		x = -1
+		prerequisite = { focus = USA_Opening_Arguments	}
+	}
+	focus = {
+		id = USA_Within_Our_Ranks
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Opening_Arguments
+		y = 1
+		x = 1
+		prerequisite = { focus = USA_Opening_Arguments	}
+	}
+	focus = {
+		id = USA_The_Treaty_of_Fifth_Avenue
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Across_The_Aisle
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_Across_The_Aisle }
+	}
+	focus = {
+		id = USA_Defining_Our_National_Progress
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Within_Our_Ranks
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_Within_Our_Ranks }
+	}
+	focus = {
+		id = USA_The_Happy_Warrior
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Treaty_of_Fifth_Avenue
+		y = 1
+		x = 1
+		prerequisite = { focus = USA_The_Treaty_of_Fifth_Avenue
+						 focus = USA_Defining_Our_National_Progress	}
+	}
+	focus = {
+		id = USA_Our_First_Battle
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Happy_Warrior
+		y = 1
+		x = 0
+		prerequisite = { focus = USA_The_Happy_Warrior	}
+	}
+	focus = {
+		id = USA_In_the_Chamber
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Our_First_Battle
+		y = 1
+		x = -2
+		prerequisite = { 
+			focus = USA_Our_First_Battle
+		}
+	}
+	focus = {
+		id = USA_In_the_Office
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Our_First_Battle
+		y = 1
+		x = 2
+		prerequisite = { 
+			focus = USA_Our_First_Battle
+		}
+	}
+	focus = {
+		id = USA_Protecting_Our_Organizers
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_In_the_Chamber
+		y = 1
+		x = -1
+		prerequisite = { 
+			focus = USA_In_the_Chamber
+		}
+}
+	focus = {
+		id = USA_What_is_a_strike
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Protecting_Our_Organizers
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Protecting_Our_Organizers
+		}
+	}
+	
+	focus = {
+		id = USA_Reorganize_the_Flow_of_Profits
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_What_is_a_strike
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_What_is_a_strike
+		}
+	}
+	focus = {
+		id = USA_Defining_Bargaining_Units
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_In_the_Chamber
+		y = 1
+		x = 1
+		prerequisite = { 
+			focus = USA_In_the_Chamber
+		}
+	}			
+
+	focus = {
+		id = USA_Make_Some_Exclusions
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Defining_Bargaining_Units
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Defining_Bargaining_Units
+		}
+	}
+	focus = {
+		id = USA_State_The_Restrictions
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Make_Some_Exclusions
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Make_Some_Exclusions
+		}
+	}
+	focus = {
+		id = USA_Cleaning_Labors_Skeletons
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_In_the_Office
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_In_the_Office
+		}
+	}
+	focus = {
+		id = USA_Through_the_Committees
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Cleaning_Labors_Skeletons
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Cleaning_Labors_Skeletons
+		}
+	}
+	focus = {
+		id = USA_A_Public_Appeal
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Through_the_Committees
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Cleaning_Labors_Skeletons
+		}
+	}
+	focus = {
+		id = USA_The_National_Labor_Relation_Act
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_State_The_Restrictions
+		y = 1
+		x = 1
+		prerequisite = { 
+			focus = USA_A_Public_Appeal
+			focus = USA_State_The_Restrictions
+			focus = USA_Reorganize_the_Flow_of_Profits
+		}
+	}
+	focus = {
+		id = USA_Shout_The_Battle_Cry_Of_Freedom
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_National_Labor_Relation_Act
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_The_National_Labor_Relation_Act
+		}
+	}
+#Environmental branch
+	focus = {
+		id = USA_To_Make_Muir_Proud
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Shout_The_Battle_Cry_Of_Freedom
+		y = 1
+		x = -10
+		prerequisite = { 
+			focus = USA_Shout_The_Battle_Cry_Of_Freedom
+		}
+	}
+	focus = {
+		id = USA_Our_Natural_Heritage
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_To_Make_Muir_Proud
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_To_Make_Muir_Proud
+		}
+	}
+	focus = {
+		id = USA_Establish_the_CCC
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Our_Natural_Heritage
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Our_Natural_Heritage
+		}
+	}
+	focus = {
+		id = USA_Paths_Across_America
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Establish_the_CCC
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_To_Make_Muir_Proud
+		}
+	}	
+	focus = {
+		id = USA_Peanuts_and_Prevention
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Paths_Across_America
+		y = 1
+		x = .75
+		prerequisite = { 
+			focus = USA_Paths_Across_America
+			focus = USA_The_Costs_Of_Oil
+		}
+	}
+	focus = {
+		id = USA_A_New_Holiday
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_To_Make_Muir_Proud
+		y = 1
+		x = 1.5
+		prerequisite = { 
+			focus = USA_To_Make_Muir_Proud
+		}
+	}
+	focus = {
+		id = USA_The_Most_Basic_Rights
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_A_New_Holiday
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_A_New_Holiday
+		}
+	}
+	focus = {
+		id = USA_The_Costs_Of_Oil
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Most_Basic_Rights
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_The_Most_Basic_Rights
+		}
+	}
+	focus = {
+		id = USA_Found_The_EPA
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Peanuts_and_Prevention
+		y = 1
+		x = -0
+		prerequisite = { 
+			focus = USA_Peanuts_and_Prevention
+		}
+	}
+#New Urbanism
+	focus = {
+		id = USA_The_Concrete_Jungles
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_To_Make_Muir_Proud
+		y = 1
+		x = -3
+		prerequisite = { 
+			focus = USA_To_Make_Muir_Proud
+		}
+	}	
+	focus = {
+		id = USA_Something_Based_With_sidewalks
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Concrete_Jungles
+		y = 1
+		x = -1
+		prerequisite = { 
+			focus = USA_The_Concrete_Jungles
+		}
+	}
+	focus = {
+		id = USA_Subways_and_Buses
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_The_Concrete_Jungles
+		y = 1
+		x = 1
+		prerequisite = { 
+			focus = USA_The_Concrete_Jungles
+		}
+	}	focus = {
+		id = USA_A_New_Generation
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Subways_and_Buses
+		y = 1
+		x = -1
+		prerequisite = { 
+			focus = USA_Subways_and_Buses
+			focus = USA_Something_Based_With_sidewalks
+		}
+	}
+#Infrastructure Branch
+	focus = {
+		id = USA_Connecting_the_Country
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Shout_The_Battle_Cry_Of_Freedom
+		y = 1
+		x = -4
+		prerequisite = { 
+			focus = USA_Shout_The_Battle_Cry_Of_Freedom
+		}
+	}
+	#Middle Branch
+	focus = {
+		id = USA_American_Rail_and_Road
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Connecting_the_Country
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Connecting_the_Country
+		}
+	}
+	#Middle Left branch
+	focus = {
+		id = USA_Highways_and_Interstates
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_American_Rail_and_Road
+		y = 1
+		x = -1
+		prerequisite = { 
+			focus = USA_American_Rail_and_Road
+		}
+	}
+	focus = {
+		id = USA_Farm_to_Market
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Highways_and_Interstates
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Highways_and_Interstates
+		}
+	}
+	#Middle right branch
+	focus = {
+		id = USA_Consolidate_The_Railways
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_American_Rail_and_Road
+		y = 1
+		x = 1
+		prerequisite = { 
+			focus = USA_American_Rail_and_Road
+		}
+	}	
+	#could we add an opportunity to repeal the jones act or smth here
+	focus = {
+		id = USA_Modernizing_the_Fleet
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Consolidate_The_Railways
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Consolidate_The_Railways
+		}
+	}
+	focus = {
+		id = USA_the_Methods_of_Best
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Modernizing
+		y = 1
+		x = 0
+		prerequisite = { 
+			focus = USA_Consolidate_The_Railways
+		}
+	}
+	focus = {
+		id = USA_National_Utilities
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Connecting_the_Country
+		y = 1
+		x = -3
+		prerequisite = { 
+			focus = USA_Connecting_the_Country
+		}
+	}
+	focus = {
+		id = USA_Talking_Atom
+		icon = GFX_Focus_Education_Books
+		relative_position_id = USA_Connecting_the_Country
+		y = 1
+		x = 3
+		prerequisite = { 
+			focus = USA_Connecting_the_Country
+		}
+	}
+
+
+
+	}
