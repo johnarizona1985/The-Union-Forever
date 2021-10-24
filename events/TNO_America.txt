@@ -4300,22 +4300,22 @@ country_event = { #Glenn Inauguration
  		name = USA.162.a
  	}
 }
-# 163 - Michael Harrington
-country_event = { #Harrington Inauguration
+# 163 - humpy
+country_event = { #Humphrey Inauguration
 	id = USA.163
 	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.163"}
-	title = USA.163.t
-	desc = USA.163.d
-	picture = GFX_report_event_generic_people
+	title = "humpy inauguration"
+	desc = "yay humphrey"
+	picture = GFX_report_event_USA_congress_2
 
 	immediate = {
 		hidden_effect = {
 			USA_on_new_president_election = yes
 			set_politics = { ruling_party = market_liberal }
  			create_country_leader = {
-				name = "Michael Harrington"
-				desc = "POLITICS_HAR_DESC"
-				picture = "Portrait_USA_Michael_Harrington.dds"
+				name = "Hubert Humphrey"
+				desc = "POLITICS_HUM_DESC"
+				picture = "Portrait_Hubert_Humphrey_Happy.dds"
 				expire = "1994.4.20"
 				ideology = social_democrat_subtype
 				traits = {
@@ -4336,59 +4336,30 @@ country_event = { #Harrington Inauguration
 			set_politics = { ruling_party = social_democrat }
 			USA_get_total_congress_votes = yes
  			remove_all_ministers = yes
-			add_ideas = USA_Irving_Howe_dep
-			add_ideas = USA_Glen_H_Taylor_pol
-			add_ideas = USA_Douglas_Fraser_eco
-			add_ideas = USA_William_Winter_mil
+			#ill replace these with humpy's ministers later
+			#add_ideas = USA_Irving_Howe_dep 
+			#add_ideas = USA_Glen_H_Taylor_pol
+			#add_ideas = USA_Douglas_Fraser_eco
+			#add_ideas = USA_William_Winter_mil
 			set_country_flag = USA_mil_68_tree_available
-			load_focus_tree = USA_HAR_68
-			if = { #Check if the response mission should activate
-				limit = { #Either Bennett or Wallace was elected
-					OR = {
-						has_country_flag = USA_64_D_RD_Past
-						has_country_flag = USA_64_FR_NPP_Past
-						has_country_flag = USA_THURMOND_FR_NPP_Past
-					}
-				 }
-				set_country_flag = USA_begin_response
+			load_focus_tree = USA_Humphrey_skeleton.1
+#			if = { #Check if the response mission should activate
+#				limit = { #Either Bennett or Wallace was elected
+#					OR = {
+#						has_country_flag = USA_64_D_RD_Past
+#						has_country_flag = USA_64_FR_NPP_Past
+#						has_country_flag = USA_THURMOND_FR_NPP_Past
+#					}
+#				 }
+#				set_country_flag = USA_begin_response
 			}
-			set_variable = { USA_HAR_fatigue = 0 }
-
-			set_variable = { USA_HAR_enthusiasm = 0 }
-			set_variable = { USA_HAR_rich_enthusiasm = 45 }
-			set_variable = { USA_HAR_middle_enthusiasm = 60 }
-			set_variable = { USA_HAR_poor_enthusiasm = 75 }
-			set_variable = { USA_HAR_poverty_enthusiasm = 90 }
-
-			set_variable = { USA_HAR_rich_influence = 80 }
-			set_variable = { USA_HAR_middle_influence = 60 }
-			set_variable = { USA_HAR_poor_influence = 35 }
-			set_variable = { USA_HAR_poverty_influence = 1 }
-
-			#Give an enthusiaism bonus based on Harringtons electoral win margin
-			multiply_variable = { USA_HAR_rich_enthusiasm = USA_HAR_win_margin }
-			multiply_variable = { USA_HAR_middle_enthusiasm = USA_HAR_win_margin }
-			multiply_variable = { USA_HAR_poor_enthusiasm = USA_HAR_win_margin }
-			multiply_variable = { USA_HAR_poverty_enthusiasm = USA_HAR_win_margin }
-
-			#Put in place some reasonable limits on middle and upper classess so Harrington doesn't start with 100% approval
-			clamp_variable = { var = USA_HAR_rich_enthusiasm max = 75 }
-			clamp_variable = { var = USA_HAR_middle_enthusiasm max = 90 }
-
-			clear_variable = USA_HAR_win_margin #No need for this anymore
-
-			USA_HAR_calculate_enthusiasm = yes
-
-
-			set_variable = { USA_HAR_fatigue_event_count = 0 }
-			BRG = { country_event = { id = BRG_puma.5 days = 1 } }
  		}
 	}
 	is_triggered_only = yes
  	fire_only_once = yes
 
  	option = {
- 		name = USA.163.a
+ 		name = "yay humphrey"
  	}
 }
 

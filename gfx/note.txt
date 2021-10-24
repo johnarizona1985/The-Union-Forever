@@ -1,0 +1,4 @@
+portraits are now in gfx/leaders/USA
+icons are now in gfx/interface/goals
+ministers are now in gfx/interface/ministers
+ -plant
