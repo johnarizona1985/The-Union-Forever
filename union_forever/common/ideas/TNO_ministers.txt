@@ -1,5 +1,25 @@
 ideas = {
 
+	foreign_minister = {
+		USA_Maxwell_Taylor_pol = {
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_Maxwell_Taylor_pol"}
+			allowed = {
+				always = no
+			}
+			picture = GFX_idea_USA_Maxwell_Taylor_pol
+			available = {
+			}
+			traits = {
+				secretary_of_state
+				authoritarian_democrat
+				for_the_cloak_n_dagger_schemer
+				USA_Maxwell_Taylor_mil_desc
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	
 	##################
 	###### Humphrey CABINET
 
@@ -13,7 +33,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Scoop_Jackson_dep
 			traits = {
-				head_of_government
+				vice_president
 				hog_pragmatic_statesman
 				social_democrat
 				USA_Scoop_Jackson_dep_desc
@@ -33,9 +53,9 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Victor_Reuther_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_democrat
-				for_ideological_crusader
+				for_international_labor_organizer
 				USA_Victor_Reuther_pol_desc
 			}
 			cancel_if_invalid = no
@@ -53,9 +73,9 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Rexford_Tugwell_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_democrat
-				eco_reformer
+				eco_planned_economy_proponent
 				USA_Rexford_Tugwell_eco_desc
 			}
 			cancel_if_invalid = no
@@ -73,7 +93,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Sid_McMath_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_democrat
 				sec_retired_general
 				USA_Sid_McMath_mil_desc
@@ -3252,7 +3272,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_John_F_Kennedy_dep
 			traits = {
-				head_of_government
+				vice_president
 				social_conservative
 				sec_man_of_the_people
 				USA_John_F_Kennedy_dep_desc
@@ -3271,7 +3291,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_William_P_Rogers_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_liberal
 				for_apologetic_clerk
 				USA_William_P_Rogers_pol_desc
@@ -3291,8 +3311,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Robert_McNamara_eco
 			traits = {
-				economy_minister
-				social_conservative
+				secretary_of_the_treasury
 				eco_administrative_genius
 				USA_Robert_McNamara_eco_desc
 			}
@@ -3310,7 +3329,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Melvin_Laird_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_liberal
 				sec_compassionate_gentleman
 				USA_Melvin_Laird_mil_desc
@@ -3329,7 +3348,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_John_McCormack_dep
 			traits = {
-				head_of_government
+				speaker_of_the_house
 				social_liberal
 				hog_pragmatic_statesman
 			}
@@ -3347,7 +3366,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Carl_Hayden_dep
 			traits = {
-				head_of_government
+				president_pro_tempore
 				social_liberal
 				hog_pragmatic_statesman
 				USA_Carl_Hayden_dep_desc
@@ -3370,7 +3389,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Gerald_Ford_dep
 			traits = {
-				head_of_government
+				vice_president
 				hog_silent_workhorse
 				social_liberal
 				USA_Gerald_Ford_dep_desc
@@ -3389,7 +3408,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Edmund_Muskie_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_conservative
 				for_fierce_negotiator
 			}
@@ -3407,7 +3426,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Absalom_Robertson_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_conservative
 				eco_political_appointment
 				USA_Absalom_Robertson_eco_desc
@@ -3426,7 +3445,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Clark_Clifford_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_conservative
 				sec_political_appointment
 			}
@@ -3449,7 +3468,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Edmund_Muskie_dep
 			traits = {
-				head_of_government
+				vice_president
 				hog_silent_workhorse
 				social_conservative
 				USA_Edmund_Muskie_dep_desc
@@ -3469,7 +3488,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Dean_Rusk_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_liberal
 				for_warmonger
 				USA_Dean_Rusk_pol_desc
@@ -3489,7 +3508,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Henry_Fowler_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_conservative
 				eco_balanced_budget_economy
 				USA_Henry_Fowler_eco_desc
@@ -3509,8 +3528,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Robert_McNamara_mil
 			traits = {
-				security_minister
-				social_conservative
+				secretary_of_defense
 				mhc_school_of_mass_combat
 				USA_Robert_McNamara_mil_desc
 			}
@@ -3531,10 +3549,48 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Hubert_Humphrey_dep
 			traits = {
-				head_of_government
+				vice_president
 				social_democrat
 				hog_silent_workhorse
 				USA_Hubert_Humphrey_dep_desc
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	foreign_minister = {
+		USA_Ralph_Bunche_pol = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_Ralph_Bunche_pol"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			picture = GFX_idea_USA_Ralph_Bunche_pol
+			traits = {
+				secretary_of_state
+				social_democrat
+				for_seasoned_ambassador
+				USA_Ralph_Bunche_pol_desc
+			}
+			cancel_if_invalid = no
+			ledger = civilian
+		}
+	}
+	economy_minister = {
+		USA_Claude_Pepper_eco = {#Auto-Generated
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_Claude_Pepper_eco"}
+			allowed = {always = no #added in on start
+			}
+			available = {
+
+			}
+			picture = GFX_idea_USA_Claude_Pepper_eco
+			traits = {
+				secretary_of_the_treasury
+				social_democrat
+				eco_reformer
+				USA_Claude_Pepper_eco_desc
 			}
 			cancel_if_invalid = no
 			ledger = civilian
@@ -3550,9 +3606,9 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Claude_Pepper_pol
 			traits = {
-				for_fierce_negotiator
+				secretary_of_state
 				social_democrat
-				foreign_minister
+				for_fierce_negotiator
 			}
 			cancel_if_invalid = no
 			ledger = civilian
@@ -3570,7 +3626,7 @@ ideas = {
 			}
 
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_democrat
 				eco_reformer
 				USA_Maurine_Neuberger_eco_desc
@@ -3587,9 +3643,9 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Henry_Mucci_mil
 			traits = {
-				mhc_school_of_commando_operations
+				secretary_of_defense
 				social_democrat
-				security_minister
+				mhc_school_of_commando_operations
 			}
 			cancel_if_invalid = no
 			ledger = civilian
@@ -3608,7 +3664,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Maxwell_Taylor_dep
 			traits = {
-				head_of_government
+				vice_president
 				authoritarian_democrat
 				hog_old_air_marshal
 				hog_passive_shell
@@ -3629,7 +3685,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_J_William_Fulbright_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				authoritarian_democrat
 				for_great_compromiser
 				USA_J_William_Fulbright_pol_desc
@@ -3669,7 +3725,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Wilbur_Mills_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				authoritarian_democrat
 				eco_mixed_economy
 				USA_Wilbur_Mills_eco_desc
@@ -3708,7 +3764,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Mendel_Rivers_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				authoritarian_democrat
 				sec_aggressive_fighter
 				USA_Mendel_Rivers_mil_desc
@@ -3731,7 +3787,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Curtis_LeMay_dep
 			traits = {
-				head_of_government
+				vice_president
 				authoritarian_democrat
 				hog_flamboyant_tough_guy
 				USA_Curtis_LeMay_dep_desc
@@ -3751,7 +3807,7 @@ ideas = {
 			}
 
 			traits = {
-				security_minister
+				secretary_of_defense
 				authoritarian_democrat
 				sec_compassionate_gentleman
 				USA_Robert_Byrd_mil_desc
@@ -3769,7 +3825,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				social_conservative
 				hog_compromise_candidate
 			}
@@ -3790,7 +3846,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				hog_silent_workhorse
 				social_liberal
 				USA_Nelson_Rockefeller_dep_desc
@@ -3811,7 +3867,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_conservative
 				sec_health_and_safety
 				USA_Carl_Curtis_pol_desc
@@ -3828,7 +3884,7 @@ ideas = {
 
 			}
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_conservative
 				hog_corporate_suit
 				USA_Donald_Regan_eco_desc
@@ -3847,8 +3903,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Robert_McNamara_mil_gold
 			traits = {
-				security_minister
-				social_conservative
+				secretary_of_defense
 				mhc_school_of_mass_combat
 				USA_Robert_McNamara_mil_gold_desc
 			}
@@ -3869,7 +3924,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Al_Gore_Sr_dep
 			traits = {
-				head_of_government
+				vice_president
 				social_liberal
 				hog_silent_workhorse
 				USA_Al_Gore_Sr_dep_desc
@@ -3889,7 +3944,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				foreign_minister
+				secretary_of_state
 				hog_silent_workhorse
 				social_liberal
 				USA_Nelson_Rockefeller_pol_desc
@@ -3910,7 +3965,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Jacob_Javits_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_liberal
 				eco_big_spender
 				USA_Jacob_Javits_eco_desc
@@ -3931,7 +3986,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Cyrus_Vance_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_liberal
 				sec_compassionate_gentleman
 			}
@@ -3951,7 +4006,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Irving_Howe_dep
 			traits = {
-				head_of_government
+				vice_president
 				social_democrat
 				hog_silent_workhorse
 				USA_Irving_Howe_dep_desc
@@ -3973,7 +4028,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_democrat
 				for_pacifist
 
@@ -3991,7 +4046,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Douglas_Fraser_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_democrat
 				eco_union_man
 				USA_Douglas_Fraser_eco_desc
@@ -4011,7 +4066,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_William_Winter_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_democrat
 				sec_compassionate_gentleman
 				USA_William_Winter_mil_desc
@@ -4030,7 +4085,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				authoritarian_democrat
 				hog_compromise_candidate
 				USA_Spiro_Agnew_dep_desc
@@ -4051,7 +4106,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				authoritarian_democrat
 				for_seasoned_ambassador
 				USA_Jeane_Kirkpatrick_pol_desc
@@ -4071,7 +4126,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				security_minister
+				secretary_of_defense
 				authoritarian_democrat
 				eco_carrier_proponent
 				USA_John_Stennis_mil_desc
@@ -4090,7 +4145,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				security_minister
+				secretary_of_defense
 				authoritarian_democrat
 				eco_carrier_proponent
 				USA_Maxwell_Taylor_mil_desc
@@ -4111,7 +4166,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				social_liberal
 				hog_happy_amateur
 				USA_Birch_Bayh_dep_desc
@@ -4132,7 +4187,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_conservative
 				for_warmonger
 				USA_Donald_Rumsfeld_pol_desc
@@ -4151,7 +4206,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_George_Shultz_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_conservative
 				eco_laissez_faire_capitalist
 				USA_George_Shultz_eco_desc
@@ -4171,7 +4226,7 @@ ideas = {
 			}
 			picture = USA_Dean_Rusk_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_liberal
 				sec_steadfast_defender
 				USA_Dean_Rusk_mil_desc
@@ -4183,15 +4238,15 @@ ideas = {
 
 	security_minister = {
 		USA_Scoop_Jackson_mil = {
-			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_Dean_Rusk_pol"}
+			on_add = {log = "[GetDateText]: [Root.GetName]: add idea USA_Scoop_Jackson_mil"}
 			allowed = {
 				always = no
 			}
 			available = {
 			}
-			picture = USA_minister_Henry_Scoop_Jackson
+			picture = GFX_idea_USA_Scoop_Jackson_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_democrat
 				sec_aggressive_fighter
 				USA_Scoop_Jackson_mil_desc
@@ -4211,7 +4266,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				social_conservative
 				hog_devoted_follower
 				USA_Bob_Dole_dep_desc
@@ -4232,7 +4287,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_liberal
 				for_the_cloak_n_dagger_schemer
 				USA_Henry_Cabot_Lodge_Jr_pol_desc
@@ -4251,7 +4306,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Elliot_Richardson_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_liberal
 				hog_silent_workhorse
 				USA_Elliot_Richardson_eco_desc
@@ -4270,7 +4325,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_liberal
 				sec_back_stabber
 				USA_Zbigniew_Brzezinski_mil_desc
@@ -4290,7 +4345,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				social_democrat
 				hog_respected_war_hero
 				USA_Sid_McMath_dep_desc
@@ -4311,7 +4366,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				social_democrat
 				for_the_cloak_n_dagger_schemer
 				USA_Frank_Church_pol_desc
@@ -4330,7 +4385,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Augustus_Hawkins_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				social_democrat
 				eco_union_man
 				USA_Augustus_Hawkins_eco_desc
@@ -4349,7 +4404,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				security_minister
+				secretary_of_defense
 				social_democrat
 				sec_rules_the_waves
 				USA_Arleigh_Burke_mil_desc
@@ -4369,7 +4424,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				authoritarian_democrat
 				hog_flamboyant_tough_guy
 				USA_Sam_Yorty_dep_desc
@@ -4390,7 +4445,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				authoritarian_democrat
 				for_warmonger
 				USA_Walt_Rostow_pol_desc
@@ -4410,7 +4465,7 @@ ideas = {
 
 			}
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				authoritarian_democrat
 				eco_military_entrepreneur
 				USA_Caspar_Weinberger_eco_desc
@@ -4429,7 +4484,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				security_minister
+				secretary_of_defense
 				authoritarian_democrat
 				cnav_power_projection_doctrine
 				USA_John_McCain_Jr_mil_desc
@@ -4469,7 +4524,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Paul_Robeson_dep
 			traits = {
-				head_of_government
+				vice_president
 				communist
 				hog_beloved_folk_hero
 				USA_Paul_Robeson_dep_desc
@@ -4490,7 +4545,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Alger_Hiss_pol
 			traits = {
-				foreign_minister
+				secretary_of_state
 				communist
 				for_well_connected
 				USA_Alger_Hiss_pol_desc
@@ -4509,7 +4564,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_Larry_Itliong_eco
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				communist
 				eco_union_man
 				USA_Larry_Itliong_eco_desc
@@ -4528,7 +4583,7 @@ ideas = {
 			}
 			picture = GFX_idea_USA_William_Martin_mil
 			traits = {
-				security_minister
+				secretary_of_defense
 				communist
 				int_technical_specialist
 				USA_William_Martin_mil_desc
@@ -4547,7 +4602,7 @@ ideas = {
 			available = {
 			}
 			traits = {
-				head_of_government
+				vice_president
 				national_socialism
 				hog_political_protege
 				USA_Louis_Byers_dep_desc
@@ -4570,7 +4625,7 @@ ideas = {
 			}
 
 			traits = {
-				foreign_minister
+				secretary_of_state
 				national_socialism
 				for_biased_intellectual
 				USA_Revilo_Oliver_pol_desc
@@ -4591,7 +4646,7 @@ ideas = {
 			}
 
 			traits = {
-				economy_minister
+				secretary_of_the_treasury
 				national_socialism
 				for_loose_lips
 				USA_Harold_Thompson_eco_desc
@@ -4611,7 +4666,7 @@ ideas = {
 			}
 
 			traits = {
-				security_minister
+				secretary_of_defense
 				national_socialism
 				sec_bomb_run_john
 				USA_John_Crommelin_mil_desc
