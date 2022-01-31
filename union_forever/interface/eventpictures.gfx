@@ -1,11 +1,31 @@
-spriteTypes = {
+	spriteTypes = {
 
 	#Humphrey Events
 	spriteType = {
 		name = "GFX_report_event_USA_Humprey_Inaug"
 		texturefile = "gfx/event_pictures/report_event_USA_Humphrey.dds"
 	}
-
+	#Alcatraz Starts Here
+	spriteType = {
+		name = "GFX_Alactraz_1"
+		texturefile = "gfx/event_pictures/Alcatraz_1.dds"
+	}
+	spriteType = {
+		name = "GFX_Alactraz_2"
+		texturefile = "gfx/event_pictures/Alcatraz_2.dds"
+	}
+	spriteType = {
+		name = "GFX_Alactraz_3"
+		texturefile = "gfx/event_pictures/Alcatraz_3.dds"
+	}
+	spriteType = {
+		name = "GFX_Alactraz_4"
+		texturefile = "gfx/event_pictures/Alcatraz_4.dds"
+	}
+	spriteType = {
+		name = "GFX_Alactraz_5"
+		texturefile = "gfx/event_pictures/Alcatraz_5.dds"
+	}
 	#### START TNO EVENTS ####
 
 	spriteType = {

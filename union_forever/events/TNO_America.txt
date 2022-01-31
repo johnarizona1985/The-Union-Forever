@@ -20,6 +20,7 @@ add_namespace = USA.credits
 add_namespace = USA.madagascar
 add_namespace = USA.early_flavor
 add_namespace = USA.flavor
+add_namespace = alcatraz_teaser
 #### INTRO EVENTS ###
 ## America intro
 
@@ -4300,8 +4301,8 @@ country_event = { #Glenn Inauguration
  		name = USA.162.a
  	}
 }
-# 163 - Michael Harrington
-country_event = { #Harrington Inauguration
+# 163 - Hubert Humphrey babyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
+country_event = { #Hubert Humphrey inauguration, fuck Harrington; all my homies hate Harrington
 	id = USA.163
 	immediate = {log = "[GetDateText]: [Root.GetName]: event USA.163"}
 	title = USA.163.t
@@ -4391,7 +4392,89 @@ country_event = { #Harrington Inauguration
  		name = "Hail to the Cheif!"
  	}
 }
+##Oh boy it's time for ALCATRAZ
+country_event = {
+	id = alcatraz_teaser.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event alcatraz_teaser.1"}
+	title = alcatraz_teaser.1.t
+	desc = alcatraz_teaser.1.desc
+	
+	picture = GFX_Alcatraz_1
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = alcatraz_teaser.1.a
+	}
+}
 
+country_event = {
+	id = alcatraz_teaser.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event alcatraz_teaser.2"}
+	title = alcatraz_teaser.2.t
+	desc = alcatraz_teaser.2.desc
+	
+	picture = GFX_Alcatraz_2
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = alcatraz_teaser.2.a
+	}
+}
+
+country_event = {
+	id = alcatraz_teaser.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event alcatraz_teaser.3"}
+	title = alcatraz_teaser.3.t
+	desc = alcatraz_teaser.3.desc
+	
+	picture = GFX_Alcatraz_3
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = alcatraz_teaser.3.a
+	}
+}
+
+country_event = {
+	id = alcatraz_teaser.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event alcatraz_teaser.4"}
+	title = alcatraz_teaser.4.t
+	desc = alcatraz_teaser.4.desc
+	
+	picture = GFX_Alcatraz_4
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = alcatraz_teaser.4.a
+	}
+}
+
+country_event = {
+	id = alcatraz_teaser.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event alcatraz_teaser.5"}
+	title = alcatraz_teaser.5.t
+	desc = alcatraz_teaser.5.desc
+	
+	picture = GFX_Alcatraz_5
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = alcatraz_teaser.5.a
+	}
+	option = {
+		name = alcatraz_teaser.5.b
+	}
+}
 ##1964 debate events
 country_event = { #CR veto
 	id = USA.164
